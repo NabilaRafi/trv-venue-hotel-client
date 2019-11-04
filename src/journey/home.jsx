@@ -7,6 +7,7 @@ import {
 import LandingPage from './landingPage';
 import HotelDetails from './hotelDetails';
 import BookingConfirmation from './bookingconfirmation';
+import ManageHotels from './manageHotels';
 import Header from '../components/header';
 
 const Home = () => (
@@ -18,6 +19,8 @@ const Home = () => (
                     <Route exact path="/" component={LandingPage} />
                     <Route key="2" path="/hotel-detail" component={HotelDetails} />
                     <Route key="3" path="/booking-confirmation" component={BookingConfirmation} />
+                    <Route exact path="/manage-hotel" component={ManageHotels} />
+
                 </Switch>
             </Router>
         </div>
