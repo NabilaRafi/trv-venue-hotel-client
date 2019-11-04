@@ -5,6 +5,7 @@ import {
     Switch
 } from 'react-router-dom';
 import LandingPage from './landingPage';
+import HotelDetails from './hotelDetails';
 import Header from '../components/header';
 
 const Home = () => (
@@ -14,7 +15,8 @@ const Home = () => (
             <Router>
                 <Switch>
                     <Route exact path="/" component={LandingPage} />
-               </Switch>
+                    <Route key="2" path="/hotel-detail" component={HotelDetails} />
+                </Switch>
             </Router>
         </div>
     </div>

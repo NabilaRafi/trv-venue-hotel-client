@@ -1,0 +1,39 @@
+.room_component_wrapper {
+    display: flex;
+    border: 1px solid #EAEAEA;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    padding: 10px;
+    width: 40vmax;
+}
+
+.room_component_wrapper div {
+    margin-right: 20px;
+}
+
+#book_now_btn {
+    height: 40px;
+    padding: 10px;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+@media screen and (max-width: 769px) {
+    .room_component_wrapper div {
+        margin-right: 10px;
+    }
+    #book_now_btn {
+        height: 65px;
+        padding: 10px;
+        margin-top: 30px;
+        margin-left: 30px;
+    }
+    .room_component_wrapper {
+        width: auto;
+        margin-right: 10px;
+    }
+    .image {
+        height: 160px;
+        width: 140px;
+    }
+  }

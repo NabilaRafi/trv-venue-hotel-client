@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Render Card component  should render card component without crashing 1`] = `ShallowWrapper {}`;
