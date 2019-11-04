@@ -1,0 +1,18 @@
+.confirmation_view {
+   margin: 10px;
+   Padding: 20px;
+}
+.hotel_details .card_wrapper {
+  width: 41vmax;
+}
+
+.hotel_details .card_wrapper .info-wrapper {
+  border-right: none;
+}
+
+@media only screen and (max-width: 769px) {
+  .hotel_details .card_wrapper {
+    width: auto;
+  }
+}
+
