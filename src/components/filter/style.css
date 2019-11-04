@@ -1,0 +1,48 @@
+.filter-wrapper {
+    display: inline-grid;
+    margin: 10px;
+}
+.filter-header {
+    border: 1px solid #EAEAEA;
+    height: 20px;
+    width: 150px;
+    text-align: center;
+    padding: 20px;
+    margin-right: 10px;
+}
+
+.filter-header-title {
+    padding: 0;
+    margin: 0;
+    font-weight: 700;
+}
+
+.filter-list {
+    list-style: none;
+    padding: 10px;
+    width: 170px;
+    border: 1px solid #EAEAEA;
+    margin-top: 0;
+}
+
+.filter-list-item input,
+.filter-list-item select {
+    height: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #EAEAEA;
+    font-size: 15px;
+}
+
+#filter-btn {
+    height: 50px;
+    padding: 10px;
+    margin-top: 10px;
+    color: #eee;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#show-filter {
+    display: none;
+}

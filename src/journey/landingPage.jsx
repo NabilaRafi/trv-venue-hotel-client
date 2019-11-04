@@ -3,6 +3,7 @@ import { connect } from 'react-redux';
 import { getAllHotels } from '../actions/loadHotels';
 import { getSelectedHoteldetails } from '../actions/loadSelectedHotel';
 import Card from '../components/card';
+import Filter from '../components/filter';
 
 class LandingPage extends Component {
     constructor(props) {
@@ -58,6 +59,7 @@ class LandingPage extends Component {
             )
         return (
             <div className="landing-page">
+                <Filter />
                 {CardMapping}
             </div>
         )
