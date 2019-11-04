@@ -24,7 +24,6 @@ generateId = () => {
 
     render() {
         const { selectedRoomDetails, selectedHotel, firstName, lastName } = this.props;
-        console.log(selectedRoomDetails)
         return (
             <div className="confirmation_view"> 
                 <h1>Thankyou {firstName} for Booking with us</h1>

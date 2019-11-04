@@ -20,17 +20,19 @@ const imagePath = {
 
 const showAmenities = (e) => {
     const showHideDOM = e.target.nextSibling;
-    // console.log(showHideDOM);
+    // class name is toggled to show the amenities when the link is clicked
     if (showHideDOM.id === 'show-content') {
         showHideDOM.removeAttribute('id', 'show-content')
     } else {
         showHideDOM.setAttribute('id', 'show-content')
     }
-    console.log(e.target.nextSibling);
 }
 
 const Card = (props) => {
     return (
+        // Card component to show relevant information about hotel,
+        // Same component is used for both mobile and desktop
+        
         <div className="card_wrapper">
             <div className="info-wrapper">
                 <div className="image_wrapper">
