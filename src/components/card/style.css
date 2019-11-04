@@ -1,0 +1,85 @@
+.card_wrapper {
+    border: 2px solid #eaeaea;
+    display: flex;
+    margin: 10px;
+    width: 50vmax;
+}
+
+.content_wrapper {
+    width: 45%;
+    float: right;
+}
+
+.info-wrapper {
+    padding: 12px;
+    border-right: 1px solid #EAEAEA;
+    margin-right: 20px;
+}
+
+.image_wrapper {
+    width: 45%;
+    float: left;
+}
+.hotel_name {
+    margin-top: 0;
+}
+
+.hotel_price {
+    color: #428500;
+    float: left;
+    text-align: center;
+    margin-top: 30px;
+    margin-right: 40px;
+}
+#deals_btn {
+    height: 40px;
+    padding: 10px;
+}
+.price_wrapper {
+    display: grid;
+    width: 35%;
+}
+
+.show-hide-list {
+    padding-left: 20px;
+}
+li.show-hide-content {
+    margin-right: 10px;
+}
+
+#show-content {
+    display: none;
+}
+
+.hotel_rating strong {
+    color: #FF7F50;
+}
+
+@media screen and (max-width: 769px) {
+    #deals_btn {
+        margin-left: 40px;
+        height: 60px;
+        padding: 20px;  
+        width: auto;
+    }
+    .info-wrapper {
+        display: inline-block;
+        margin-bottom: 10px;
+        border-right: none;
+        margin-right: 0;
+    }
+    .hotel_price {
+        margin-top: 15px;
+        width: 45%;
+        margin-right: 0px;
+    }
+    .card_wrapper {
+        width: auto;
+        display: block;
+        padding: 12px;
+    }
+    .price_wrapper {
+        display: block;
+        width: auto;
+    }
+  }

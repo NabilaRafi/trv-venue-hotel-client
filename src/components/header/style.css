@@ -1,0 +1,31 @@
+.App-logo {
+    height: 15vmin;
+    padding-left: 10px;
+    
+  }
+  
+  .App-header {
+    color: white;
+    border-bottom: 2px solid #EAEAEA;
+    text-align: center;
+  }
+
+  .image-wrapper {
+      border-right: 2px solid #EAEAEA;
+      display: inline-block;
+  }
+
+  .user-name {
+      color: #000000;
+      float: right;
+      margin-top: 35px;
+      padding-right: 10px;
+  }
+  
+
+  @media screen and (max-width: 769px) {
+    .App-logo{
+      height: 25vmin;
+    }
+  }
+  
