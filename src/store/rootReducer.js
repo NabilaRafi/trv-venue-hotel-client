@@ -46,6 +46,7 @@ const rootReducer = (state = initialState, action={}) =>  {
             }
         case ActionConstants.SELECTED_HOTEL_SUCCESS:
             const { rooms } = action.payload[0];
+            // sorts the rooms based on the price (sorted in ascending order)
             const sortedRooms = rooms.sort((a, b) => parseFloat(a.price_in_usd) - parseFloat(b.price_in_usd));
 
             return {

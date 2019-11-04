@@ -32,7 +32,6 @@ const Card = (props) => {
     return (
         // Card component to show relevant information about hotel,
         // Same component is used for both mobile and desktop
-        
         <div className="card_wrapper">
             <div className="info-wrapper">
                 <div className="image_wrapper">
