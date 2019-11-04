@@ -6,6 +6,7 @@ import {
 } from 'react-router-dom';
 import LandingPage from './landingPage';
 import HotelDetails from './hotelDetails';
+import BookingConfirmation from './bookingconfirmation';
 import Header from '../components/header';
 
 const Home = () => (
@@ -16,6 +17,7 @@ const Home = () => (
                 <Switch>
                     <Route exact path="/" component={LandingPage} />
                     <Route key="2" path="/hotel-detail" component={HotelDetails} />
+                    <Route key="3" path="/booking-confirmation" component={BookingConfirmation} />
                 </Switch>
             </Router>
         </div>
